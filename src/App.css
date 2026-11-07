@@ -1,0 +1,122 @@
+
+/* Tema Book Sales */
+:root {
+  --dusty-blue: #A9BDD0;
+  --slate-blue: #657C91;
+  --soft-cream: #E8DCCB;
+  --off-white: #FAF9F6;
+  --dark-blue: #40566B;
+}
+
+body {
+  background-color: var(--off-white);
+  color: var(--dark-blue);
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+header {
+  background-color: var(--off-white);
+}
+
+.navbar-brand {
+  color: var(--dark-blue) !important;
+}
+
+.nav-link {
+  color: var(--dark-blue) !important;
+  transition: 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--slate-blue) !important;
+  font-weight: 600;
+}
+
+/* Login Button */
+.btn-login {
+  background-color: var(--slate-blue);
+  color: white;
+  border-radius: 8px;
+  padding: 8px 20px;
+}
+
+.btn-login:hover {
+  background-color: var(--dark-blue);
+  color: white;
+}
+/* Ikon Book Sales */
+.navbar-brand i {
+  color: var(--slate-blue);
+  font-size: 1.5rem;
+}
+.btn-register {
+  background-color: var(--soft-cream);
+  color: var(--dark-blue);
+  border-radius: 8px;
+  padding: 8px 20px;
+}
+
+.btn-register:hover {
+  background-color: var(--dusty-blue);
+  color: var(--dark-blue);
+}
+/* Hero Section */
+.hero-title {
+  color: var(--dark-blue);
+}
+
+.hero-section p {
+  color: var(--slate-blue);
+}
+/* Product List */
+.album {
+  background-color: var(--soft-cream);
+}
+
+.album h2 {
+  color: var(--dark-blue);
+}
+
+.product-img {
+  height: 280px;
+  object-fit: cover;
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card-title {
+  color: var(--dark-blue);
+}
+
+.card-text {
+  color: var(--slate-blue);
+}
+/* Footer */
+.footer-section {
+  background-color: var(--dark-blue);
+  color: var(--off-white);
+}
+
+.footer-section p {
+  color: var(--soft-cream);
+}
+
+.footer-link {
+  color: var(--off-white);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-link:hover {
+  color: var(--dusty-blue);
+}
+
+.footer-section hr {
+  border-color: var(--soft-cream);
+  margin: 25px 0;
+}
