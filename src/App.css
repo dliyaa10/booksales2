@@ -120,3 +120,38 @@ header {
   border-color: var(--soft-cream);
   margin: 25px 0;
 }
+.navbar-nav .nav-link.active {
+  color: #0d6efd !important;
+  font-weight: bold;
+}
+/* Navbar Styling */
+.navbar .nav-link {
+  color: #657C91;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  margin: 0 8px;
+}
+
+.navbar .nav-link:hover {
+  color: #A9BDD0;
+}
+
+.navbar .nav-link.active {
+  color: #40566B !important;
+  font-weight: 700;
+  border-bottom: 2px solid #40566B;
+}
+
+.navbar .navbar-brand {
+  color: #40566B;
+}
+
+.navbar .btn-primary {
+  background-color: #40566B;
+  border-color: #40566B;
+}
+
+.navbar .btn-primary:hover {
+  background-color: #657C91;
+  border-color: #657C91;
+}
